@@ -1,0 +1,15 @@
+{
+    "name": "incubout/csv",
+    "description": "Csv utilities",
+    "keywords": ["incubout", "csv"],
+    "type": "package",
+    "minimum-stability": "dev",
+    "require": {
+        "laravel/framework": "5.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Incubout\\Csv\\": "src/"
+        }
+    }
+}
